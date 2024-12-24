@@ -10,20 +10,21 @@ Stock Market Performance Analysis (Dynamic Dashboard)
 <img src="images/project1 placeholder.png?raw=true"/>
 
 ---
-Healthcare analysis (/pdf/sample_presentation.pdf)
+Healthcare analysis Dashboard (/pdf/sample_presentation.pdf)
 <img src="images/project2healthcare.png?raw=true"/>
 
 ---
- Retail: Sales and Inventory Optimization(http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+ Retail: Sales and Inventory Optimization Dashboard (http://example.com/)
+<img src="images/retail.png?raw=true"/>
 
 ---
 
 ### Category Name 2
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
+- Stock Market Performance Analysis (Dynamic Dashboard)(http://example.com/)
+- 
+- Healthcare analysis Dashboard(http://example.com/)
+- Retail: Sales and Inventory Optimization Dashboard (http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
 
