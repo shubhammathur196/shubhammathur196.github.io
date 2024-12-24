@@ -1,11 +1,9 @@
 title: John Doe # your name (or website title) here
 logo: "/images/Photograph_Shubham_Mathur.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Aspiring Data analyst with a passion for Data insights and helping making Data driven decisions.
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/shubham-mathur-7b3475118/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
