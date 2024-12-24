@@ -2,26 +2,22 @@
 
 ---
 
-### Category Name 1 
-
-Stock Market Performance Analysis (Dynamic Dashboard)
-
+### Recent Projects
 
 <img src="images/project1 placeholder.png?raw=true"/>
 
 ---
-Healthcare analysis Dashboard (/pdf/sample_presentation.pdf)
+## Healthcare analysis Dashboard (/pdf/sample_presentation.pdf)
 <img src="images/project2healthcare.png?raw=true"/>
 
 ---
- Retail: Sales and Inventory Optimization Dashboard (http://example.com/)
+## Retail: Sales and Inventory Optimization Dashboard (http://example.com/)
 <img src="images/retail.png?raw=true"/>
 
 ---
 
-### Category Name 2
 
-- Stock Market Performance Analysis (Dynamic Dashboard)(http://example.com/)
+## Stock Market Performance Analysis (Dynamic Dashboard)
 - 
 - Healthcare analysis Dashboard(http://example.com/)
 - Retail: Sales and Inventory Optimization Dashboard (http://example.com/)
