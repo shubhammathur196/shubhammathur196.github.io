@@ -9,7 +9,7 @@
 ---
 
 ## German Stock Exchange Dashboard
-<img src="images/stock.png?raw=true"/>
+<img src="images/Stock.png?raw=true"/>
 
 ---
 
