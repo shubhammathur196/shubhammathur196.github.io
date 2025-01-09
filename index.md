@@ -7,26 +7,14 @@
 <img src="images/project1 placeholder.png?raw=true"/>
 
 ---
-## Healthcare analysis Dashboard (/pdf/sample_presentation.pdf)
-<img src="images/project2healthcare.png?raw=true"/>
+## Adidas Sales Analytics Dashboard
+<img src="images/adidas_dashboard.png?raw=true"/>
 
 ---
-## Retail: Sales and Inventory Optimization Dashboard (http://example.com/)
-<img src="images/retail.png?raw=true"/>
+## German Stock Exchange Dashboard
+<img src="images/Stock.png?raw=true"/>
 
 ---
-
-
-## Stock Market Performance Analysis (Dynamic Dashboard)
-- 
-- Healthcare analysis Dashboard(http://example.com/)
-- Retail: Sales and Inventory Optimization Dashboard (http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
 
 
 ---
