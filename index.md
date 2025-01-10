@@ -3,44 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adidas Sales Performance Analysis</title>
+    <title>Project Dashboards</title>
     <style>
-        h1 {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            font-size: 2.5em;
-            color: #333;
-            margin-top: 20px;
-        }
-        .image-container {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .image-container img {
-            max-width: 80%;
-            height: auto;
-            border: 1px solid #ccc;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-        }
+        /* General body and layout styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
         section {
             margin: 20px;
+        }
+        .project-container {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f4f4f4;
         }
     </style>
 </head>
 <body>
-    <header>
+    <!-- Project 1: Adidas Dashboard -->
+    <div class="project-container">
         <h1>Adidas USA Sales Performance Dashboard (2020-2021)</h1>
-        <div class="image-container">
-            <img src="your-image-path-adidas.png" alt="Adidas Dashboard">
-        </div>
-    </header>
-    <main>
         <section>
             <h2>Project Description</h2>
             <p>
@@ -60,55 +57,10 @@
                 <li>Geographic Distribution</li>
             </ol>
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Adidas Sales Analysis Dashboard</p>
-    </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>German Stock Market Analysis</title>
-    <style>
-        h1 {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            font-size: 2.5em;
-            color: #333;
-            margin-top: 20px;
-        }
-        .image-container {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .image-container img {
-            max-width: 80%;
-            height: auto;
-            border: 1px solid #ccc;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        section {
-            margin: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
+    </div>
+    <!-- Project 2: German Stock Market Dashboard -->
+    <div class="project-container">
         <h1>German Stock Market Analysis (2023-2024)</h1>
-        <div class="image-container">
-            <img src="your-image-path-stock.png" alt="German Stock Market Dashboard">
-        </div>
-    </header>
-    <main>
         <section>
             <h2>Project Description</h2>
             <p>
@@ -126,9 +78,9 @@
                 <li>Key Performance Highlights</li>
             </ol>
         </section>
-    </main>
+    </div>
     <footer>
-        <p>&copy; 2025 German Stock Market Analysis Dashboard</p>
+        <p>&copy; 2025 Project Dashboards</p>
     </footer>
 </body>
 </html>
