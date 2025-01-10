@@ -77,7 +77,7 @@
 <div class="project-container">
         <h1>German Stock Market Analysis (2023-2024)</h1>
         <div class="image-container">
-            <img src="image\stock_dashboard.png" alt="German Stock Market Dashboard">
+            <img src="image\stock.png" alt="German Stock Market Dashboard">
         </div>
         <section>
             <h2>Project Description</h2>
