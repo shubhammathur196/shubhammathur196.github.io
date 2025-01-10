@@ -49,8 +49,8 @@
     <div class="project-container">
         <h1>Adidas USA Sales Performance Dashboard (2020-2021)</h1>
         <div class="image-container">
-            <img src="images/adidas_dashboard.png" alt="Adidas Dashboard">
-            <img src="images/adidas2.png" alt="Adidas Dashboard">
+            <img src="images\adidas_dashboard.png" alt="Adidas Dashboard">
+            <img src="images\adidas2.png" alt="Adidas Dashboard">
         </div>
         <section>
             <h2>Project Description</h2>
