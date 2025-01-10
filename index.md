@@ -27,6 +27,16 @@
             max-width: 900px;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
         }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 80%;
+            height: auto;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
         footer {
             text-align: center;
             padding: 10px;
@@ -38,6 +48,9 @@
     <!-- Project 1: Adidas Dashboard -->
     <div class="project-container">
         <h1>Adidas USA Sales Performance Dashboard (2020-2021)</h1>
+        <div class="image-container">
+            <img src="adidas_dashboard.png" alt="Adidas Dashboard">
+        </div>
         <section>
             <h2>Project Description</h2>
             <p>
@@ -58,9 +71,13 @@
             </ol>
         </section>
     </div>
-    <!-- Project 2: German Stock Market Dashboard -->
-    <div class="project-container">
+
+<!-- Project 2: German Stock Market Dashboard -->
+<div class="project-container">
         <h1>German Stock Market Analysis (2023-2024)</h1>
+        <div class="image-container">
+            <img src="stock_dashboard.png" alt="German Stock Market Dashboard">
+        </div>
         <section>
             <h2>Project Description</h2>
             <p>
@@ -79,8 +96,9 @@
             </ol>
         </section>
     </div>
-    <footer>
+
+<footer>
         <p>&copy; 2025 Project Dashboards</p>
-    </footer>
+</footer>
 </body>
 </html>
