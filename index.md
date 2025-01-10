@@ -3,7 +3,7 @@
 ---
 
 ---
-## Adidas Sales Analytics Dashboard
+
 <img src="images/adidas_dashboard.png?raw=true"/>
 <img src= "images/adidas2.png?raw=true"/>
 
@@ -87,7 +87,6 @@
 
 ---
 
-## German Stock Exchange Dashboard
 <img src="images/Stock.png?raw=true"/>
 
 <!DOCTYPE html>
