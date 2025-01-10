@@ -4,9 +4,6 @@
 
 ---
 
-<img src="images/adidas_dashboard.png?raw=true"/>
-<img src= "images/adidas2.png?raw=true"/>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +16,9 @@
         <h1>Adidas Sales Performance Analysis (2020-2021)</h1>
     </header>
     <main>
-        <section>
+<img src="images/adidas_dashboard.png?raw=true"/>
+<img src= "images/adidas2.png?raw=true"/>
+<section>
             <h2>Project Description</h2>
             <p>
                 This project analyzes sales performance data of Adidas in the USA for the years 2020-2021, focusing on key metrics such as total sales, units sold, and operating margins. Using Power BI dashboards, the project provides visualizations and insights into sales trends, performance by region, retailer, product, and sales method. The dashboards are designed to aid decision-making by presenting the data in an interactive and user-friendly manner.
