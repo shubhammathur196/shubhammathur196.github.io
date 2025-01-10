@@ -3,27 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>German Stock Market Analysis</title>
+    <title>Adidas Sales Performance Analysis</title>
     <style>
-        /* Styling for title and body */
         h1 {
             text-align: center;
             font-family: Arial, sans-serif;
             font-size: 2.5em;
             color: #333;
             margin-top: 20px;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        section {
-            margin: 20px;
-        }
-        ol {
-            margin-left: 20px;
         }
         .image-container {
             text-align: center;
@@ -35,13 +22,90 @@
             border: 1px solid #ccc;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
         }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        section {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adidas USA Sales Performance Dashboard (2020-2021)</h1>
+        <div class="image-container">
+            <img src="your-image-path-adidas.png" alt="Adidas Dashboard">
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Project Description</h2>
+            <p>
+                This project analyzes sales performance data of Adidas in the USA for the years 2020-2021, focusing on key metrics such as total sales, units sold, and operating margins. Using Power BI dashboards, the project provides visualizations and insights into sales trends, performance by region, retailer, product, and sales method. The dashboards are designed to aid decision-making by presenting the data in an interactive and user-friendly manner.
+            </p>
+        </section>
+        <section>
+            <h2>Questions This Project Answers</h2>
+            <ol>
+                <li>Overall Sales Performance</li>
+                <li>Sales by Region</li>
+                <li>Best Performing Areas</li>
+                <li>Retailer Performance</li>
+                <li>Product Analysis</li>
+                <li>Sales Trends Over Time</li>
+                <li>Sales Method Analysis</li>
+                <li>Geographic Distribution</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Adidas Sales Analysis Dashboard</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Stock Market Analysis</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 2.5em;
+            color: #333;
+            margin-top: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 80%;
+            height: auto;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        section {
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>German Stock Market Analysis (2023-2024)</h1>
         <div class="image-container">
-            <img src="your-image-path-here" alt="German Stock Market Analysis Dashboard">
+            <img src="your-image-path-stock.png" alt="German Stock Market Dashboard">
         </div>
     </header>
     <main>
@@ -54,42 +118,12 @@
         <section>
             <h2>Questions This Project Answers</h2>
             <ol>
-                <li><strong>Market Performance:</strong>
-                    <ul>
-                        <li>What are the trends in average close and open prices over time (daily, monthly, quarterly)?</li>
-                        <li>How has the DAX index performed over the two-year period?</li>
-                    </ul>
-                </li>
-                <li><strong>Volatility Analysis:</strong>
-                    <ul>
-                        <li>What are the patterns in price range volatility?</li>
-                        <li>Which periods exhibit high volatility compared to normal trading days?</li>
-                    </ul>
-                </li>
-                <li><strong>Daily Returns:</strong>
-                    <ul>
-                        <li>How do daily percentage changes (returns) in stock prices vary by month and year?</li>
-                        <li>What are the periods of maximum gains and losses?</li>
-                    </ul>
-                </li>
-                <li><strong>Volume Analysis:</strong>
-                    <ul>
-                        <li>How do trading volumes correlate with price volatility?</li>
-                        <li>What are the high-volume trading days, and how do they compare with normal days?</li>
-                    </ul>
-                </li>
-                <li><strong>Seasonality and Trends:</strong>
-                    <ul>
-                        <li>Are there any seasonal patterns in the stock market's performance?</li>
-                        <li>Which months and quarters show the highest or lowest activity?</li>
-                    </ul>
-                </li>
-                <li><strong>Key Performance Highlights:</strong>
-                    <ul>
-                        <li>What were the highest and lowest daily returns over the period?</li>
-                        <li>Which months had the most significant market movements?</li>
-                    </ul>
-                </li>
+                <li>Market Performance</li>
+                <li>Volatility Analysis</li>
+                <li>Daily Returns</li>
+                <li>Volume Analysis</li>
+                <li>Seasonality and Trends</li>
+                <li>Key Performance Highlights</li>
             </ol>
         </section>
     </main>
