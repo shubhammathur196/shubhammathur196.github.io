@@ -24,8 +24,9 @@
             border-radius: 8px;
             margin: 20px auto;
             padding: 20px;
-            max-width: 900px;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 90%; /* Default for mobile */
+            background-color: #fff;
         }
         .image-container {
             text-align: center;
@@ -42,6 +43,19 @@
             padding: 10px;
             background: #f4f4f4;
         }
+
+  /* Responsive Design for Larger Screens */
+       @media (min-width: 768px) {
+            .project-container {
+                max-width: 70%; /* For tablets and small desktops */
+            }
+        }
+
+   @media (min-width: 1024px) {
+            .project-container {
+                max-width: 50%; /* For larger desktops */
+            }
+        }
     </style>
 </head>
 <body>
@@ -49,8 +63,7 @@
     <div class="project-container">
         <h1>Adidas USA Sales Performance Dashboard (2020-2021)</h1>
         <div class="image-container">
-            <img src="images\adidas_dashboard.png" alt="Adidas Dashboard">
-            <img src="images\adidas2.png" alt="Adidas Dashboard">
+            <img src="adidas_dashboard.png" alt="Adidas Dashboard">
         </div>
         <section>
             <h2>Project Description</h2>
@@ -72,12 +85,11 @@
             </ol>
         </section>
     </div>
-
 <!-- Project 2: German Stock Market Dashboard -->
-<div class="project-container">
+    <div class="project-container">
         <h1>German Stock Market Analysis (2023-2024)</h1>
         <div class="image-container">
-            <img src="images\Stock.png" alt="German Stock Market Dashboard">
+            <img src="stock_dashboard.png" alt="German Stock Market Dashboard">
         </div>
         <section>
             <h2>Project Description</h2>
@@ -98,8 +110,8 @@
         </section>
     </div>
 
-<footer>
+   <footer>
         <p>&copy; 2025 Project Dashboards</p>
-</footer>
+    </footer>
 </body>
 </html>
