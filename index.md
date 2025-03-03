@@ -1,4 +1,7 @@
 
+
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,9 +34,8 @@
             padding: 10px;
             background: #f4f4f4;
         }
-
-        /* Responsive Design *
-@media (min-width: 768px) {
+        /* Responsive Design */
+        @media (min-width: 768px) {
             body {
                 margin: 0 10%;
             }
@@ -71,7 +73,7 @@
         </ol>
     </section>
 
-<h1>German Stock Market Analysis (2023-2024)</h1>
+   <h1>German Stock Market Analysis (2023-2024)</h1>
     <div class="image-container">
         <img src="images/Stock.png" alt="German Stock Market Dashboard">
     </div>
@@ -92,7 +94,66 @@
             <li>Key Performance Highlights</li>
         </ol>
     </section>
-    <footer>
+<!-- BEGIN: A/B Testing Project Section -->
+    <h1>A/B Testing: Food &amp; Drink Banner</h1>
+    <div class="image-container">
+        <img src="images/abtesting.jpg" alt="A/B Testing Overview">
+    </div>
+    <section>
+        <h2>Project Description</h2>
+        <p>
+            Welcome to your first Mastery Project! In this project, you will analyze the results of an A/B test for GloBox, an online marketplace specializing in unique and high-quality products from around the world. GloBox has recently expanded its food &amp; drink offerings, and the Growth team decided to test whether a banner highlighting these products on the mobile website could increase conversion rates and revenue.
+        </p>
+        <p>
+            In the test setup, users are randomly assigned to one of two groups:
+            <strong>Control Group (Group A)</strong> – Users see the standard page without the banner.
+            <strong>Test Group (Group B)</strong> – Users see the page with the food &amp; drink banner.
+        </p>
+        <p>
+            Your task is to compare key metrics such as conversion rates, average spend, and overall revenue between the two groups using SQL queries. The goal is to provide data-driven recommendations on whether GloBox should launch the banner experience to all users.
+        </p>
+    </section>
+    <section>
+        <h2>Key SQL Queries</h2>
+        <pre><code>
+-- 1) Combine Activity, Users, and Groups (mobile-only)
+SELECT a.*, u.*, g."group"
+FROM activity a
+JOIN users u ON u.id = a.uid
+JOIN groups g ON u.id = g.uid
+WHERE a.device IN ('A', 'I');
+
+-- 2) Calculate conversion by group (using LEFT JOIN so non-purchasers aren't excluded)
+SELECT
+    g."group" AS group_name,
+    COUNT(DISTINCT u.id) AS total_users,
+    COUNT(DISTINCT CASE WHEN a.uid IS NOT NULL THEN u.id END) AS users_with_purchase,
+    1.0 * COUNT(DISTINCT CASE WHEN a.uid IS NOT NULL THEN u.id END)
+         / COUNT(DISTINCT u.id) AS conversion_rate
+FROM users u
+JOIN groups g ON u.id = g.uid
+LEFT JOIN activity a ON u.id = a.uid AND a.device IN ('A', 'I')
+GROUP BY g."group";
+
+-- 3) Compare average spend by group and device
+SELECT
+    a.device,
+    g."group" AS test_group,
+    AVG(a.spent) AS average_amount_spent
+FROM activity a
+JOIN users u ON u.id = a.uid
+JOIN groups g ON u.id = g.uid
+WHERE a.device IN ('A', 'I')
+GROUP BY a.device, g."group"
+ORDER BY a.device, g."group";
+
+-- 4) Statistical significance (two-proportion z-test logic)
+-- Count converters in each group, compute pooled conversion rate, standard error, and z-score.
+        </code></pre>
+    </section>
+    <!-- END: A/B Testing Project Section -->
+
+   <footer>
         <p>&copy; 2025 Project Dashboards</p>
     </footer>
 </body>
