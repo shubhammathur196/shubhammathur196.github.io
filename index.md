@@ -13,7 +13,7 @@
     }
 
     /* Header */
-  header {
+   header {
       position: static; /* Ensures the header isn't fixed or sticky */
       background: #f8f8f8;
       padding: 20px;
@@ -179,10 +179,6 @@
 
   </main>
 
-  <!-- Footer -->
-  <footer>
-    &copy; 2025 Project Dashboards
-  </footer>
-
+  
 </body>
 </html>
