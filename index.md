@@ -94,9 +94,8 @@
     <h1>Project Portfolio</h1>
     <div class="intro">
       <!-- Replace this image source with your actual photo path -->
-      <img src="images/shubham.jpg" alt="Shubham Mathur" />
-      <p>Aspiring data analyst with a passion for data analysis and helping make data-driven decisions.</p>
-    </div>
+
+  </div>
     <nav>
       <a href="#adidas">Adidas Dashboard</a>
       <a href="#stock">German Stock Analysis</a>
