@@ -5,22 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Project Portfolio</title>
   <style>
+    /* Global Styles */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
-    header, main, footer {
-      margin: 0 5%;
-      padding: 10px 0;
-    }
+
     /* Header */
-    header {
+  header {
+      position: static; /* Ensures the header isn't fixed or sticky */
+      background: #f8f8f8;
+      padding: 20px;
       border-bottom: 1px solid #ccc;
     }
     header h1 {
       margin: 0;
       font-size: 1.8rem;
+      color: #333;
     }
     .intro {
       display: flex;
@@ -36,8 +38,9 @@
       margin: 0;
       color: #555;
     }
+
     /* Navigation */
-    nav {
+   nav {
       margin-top: 15px;
     }
     nav a {
@@ -49,17 +52,22 @@
     nav a:hover {
       text-decoration: underline;
     }
-    /* Projects */
+
+    /* Main Content */
+   main {
+      margin: 20px;
+    }
     article {
-      margin: 40px 0;
-      padding-bottom: 20px;
+      margin-bottom: 40px;
       border-bottom: 1px solid #eee;
+      padding-bottom: 20px;
     }
     article h2 {
-      margin-top: 0;
       color: #333;
+      margin-top: 0;
     }
-    .image-container {
+
+   .image-container {
       text-align: center;
       margin: 20px 0;
     }
@@ -68,8 +76,9 @@
       height: auto;
       margin: 10px;
     }
+
     /* Footer */
-    footer {
+   footer {
       text-align: center;
       border-top: 1px solid #ccc;
       padding: 15px 0;
@@ -99,7 +108,7 @@
   <main>
 
     <!-- Adidas Project -->
-  <article id="adidas">
+   <article id="adidas">
       <h2>Adidas USA Sales Performance Dashboard (2020-2021)</h2>
       <div class="image-container">
         <!-- Replace with your actual image paths -->
@@ -124,7 +133,7 @@
     </article>
 
     <!-- German Stock Market Analysis -->
-  <article id="stock">
+   <article id="stock">
       <h2>German Stock Market Analysis (2023-2024)</h2>
       <div class="image-container">
         <!-- Replace with your actual image path -->
@@ -146,7 +155,7 @@
     </article>
 
     <!-- A/B Testing Project -->
-  <article id="abtesting">
+   <article id="abtesting">
       <h2>A/B Testing: Food &amp; Drink Banner</h2>
       <div class="image-container">
         <!-- Replace with your actual image path -->
@@ -170,6 +179,10 @@
 
   </main>
 
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Project Dashboards
+  </footer>
 
 </body>
 </html>
