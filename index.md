@@ -14,40 +14,31 @@
 
     /* Header */
    header {
-      position: static; /* Ensures the header isn't fixed or sticky */
       background: #f8f8f8;
       padding: 20px;
       border-bottom: 1px solid #ccc;
     }
     header h1 {
-      margin: 0;
+      margin: 0 0 10px 0; /* space under heading */
       font-size: 1.8rem;
       color: #333;
     }
-    .intro {
-      display: flex;
-      align-items: center;
-      margin-top: 10px;
-    }
-    .intro img {
-      width: 100px;
-      border-radius: 50%;
-      margin-right: 15px;
-    }
-    .intro p {
-      margin: 0;
-      color: #555;
-    }
 
     /* Navigation */
-   nav {
+  nav {
       margin-top: 15px;
+    }
+    nav ol {
+      margin: 0;
+      padding-left: 1.5rem; /* indent for numbering */
+    }
+    nav li {
+      margin-bottom: 5px; /* spacing between links */
     }
     nav a {
       text-decoration: none;
       color: #007bff;
       font-weight: bold;
-      margin-right: 15px;
     }
     nav a:hover {
       text-decoration: underline;
@@ -76,15 +67,6 @@
       height: auto;
       margin: 10px;
     }
-
-    /* Footer */
-   footer {
-      text-align: center;
-      border-top: 1px solid #ccc;
-      padding: 15px 0;
-      margin: 0 5%;
-      color: #555;
-    }
   </style>
 </head>
 <body>
@@ -92,14 +74,12 @@
   <!-- Header Section -->
   <header>
     <h1>Project Portfolio</h1>
-    <div class="intro">
-      <!-- Replace this image source with your actual photo path -->
-
-  </div>
     <nav>
-      <a href="#adidas">Adidas Dashboard</a>
-      <a href="#stock">German Stock Analysis</a>
-      <a href="#abtesting">A/B Testing Banner</a>
+      <ol>
+        <li><a href="#adidas">Adidas Dashboard</a></li>
+        <li><a href="#stock">German Stock Analysis</a></li>
+        <li><a href="#abtesting">A/B Testing Banner</a></li>
+      </ol>
     </nav>
   </header>
 
@@ -177,7 +157,5 @@
     </article>
 
   </main>
-
-  
 </body>
 </html>
